@@ -42,7 +42,7 @@ int main(){
     int M, N;
     cin >> N >> M;
     for (int i = 1; i <= M; i++) {
-        int a,b;
+        int a, b;
         cin >> a >> b;
         addedge(a, b);
         addedge(b, a);
